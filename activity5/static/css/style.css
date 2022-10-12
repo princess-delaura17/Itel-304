@@ -1,0 +1,37 @@
+h1{
+    border: 2px #9e61da solid;
+    color: #d900fe;
+    text-align: center;
+    padding: 25px;
+}
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4be2a6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #d4901b;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: rgba(6, 6, 14, 0.95);
+}
